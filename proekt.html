@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Перспектива ТЦ - Обслуживание систем безопасности</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="proekt.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <div class="logo-img-placeholder">
+                  <img src="/home/student/Рабочий стол/проект 2/1.jpg">
+                </div>
+                <div>
+                    <div class="logo-text">ПЕРСПЕКТИВА ТЦ</div>
+                    <div class="logo-subtext">Обслуживание систем безопасности</div>
+                </div>
+            </div>
+              
+            <nav>
+                <ul>
+                    <li><a href="#home">Главная</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#about">О компании</a></li>
+                    <li><a href="#team">Наша команда</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </nav>
+                <a href="#contact" class="btn">Заказать звонок</a>
+            </div>
+        </div>
+    </header>
+<div class="support-widget">
+    <div class="support-btn" id="supportButton">
+        <i class="fas fa-headset"></i>
+        <span class="support-text">Поддержка</span>
+    </div>
+    
+    <div class="support-popup" id="supportPopup">
+        <div class="popup-header">
+            <h4><i class="fas fa-headset"></i> Техническая поддержка</h4>
+            <span class="popup-close">&times;</span>
+        </div>
+        <div class="popup-body">
+            <div class="support-option">
+                <div class="option-icon">
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="option-content">
+                    <h5>Позвонить сейчас</h5>
+                    <p>+7 (495) 316-77-27</p>
+                    <a href="tel:+74953167727" class="support-action">
+                        <i class="fas fa-phone"></i> Позвонить
+                    </a>
+                </div>
+            </div>
+            
+            <div class="support-option">
+                <div class="option-icon">
+                    <i class="fas fa-comment-dots"></i>
+                </div>
+                <div class="option-content">
+                    <h5>Онлайн-чат</h5>
+                    <p>Ответим в течение 5 минут</p>
+                    <button class="support-action chat-btn">
+                        <i class="fas fa-comment"></i> Написать в чат
+                    </button>
+                </div>
+            </div>
+            
+            <div class="support-option">
+                <div class="option-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="option-content">
+                    <h5>Email поддержка</h5>
+                    <p>support@perspektiva-tc.ru</p>
+                    <a href="mailto:support@perspektiva-tc.ru" class="support-action">
+                        <i class="fas fa-envelope"></i> Написать письмо
+                    </a>
+                </div>
+            </div>
+            
+            <div class="support-hours">
+                <i class="fas fa-clock"></i>
+                <span>Круглосуточно, без выходных</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mini-chat" id="miniChat">
+    <div class="chat-header">
+        <h5><i class="fas fa-comment-dots"></i> Онлайн-чат</h5>
+        <span class="chat-close">&times;</span>
+    </div>
+    <div class="chat-body">
+        <div class="chat-messages">
+            <div class="message operator">
+                <div class="message-content">
+                    <p>Здравствуйте! Чем могу помочь?</p>
+                </div>
+                <div class="message-time">сейчас</div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="Введите ваше сообщение..." id="chatInput">
+            <button class="send-btn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+</div>
+    <script src="proekt.js"></script>
+</body>
+</html>
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="years-badge">25 лет на рынке</div>
+            <h1>Обслуживание домофонов, камер видеонаблюдения и шлагбаумов</h1>
+            <p>Эксперты в системах безопасности с многолетним опытом работы. Гарантия качества и надежности.</p>
+            <a href="#contact" class="btn hero-btn">Получить консультацию</a>
+        </div>
+    </section>
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наши услуги</h2>
+                <p>Мы предлагаем полный спектр услуг по обслуживанию и ремонту систем безопасности</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="/home/student/Рабочий стол/проект 2/2.jpg" alt="Домофоны" class="service-img">
+                    <div class="service-content">
+                        <h3>Обслуживание домофонов</h3>
+                        <p>Ремонт, установка и настройка домофонных систем любой сложности. Гарантия на работы 12 месяцев.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <img src="/home/student/Рабочий стол/проект 2/4.jpg" alt="Видеонаблюдение" class="service-img">
+                    <div class="service-content">
+                        <h3>Камеры видеонаблюдения</h3>
+                        <p>Монтаж, настройка и обслуживание систем видеонаблюдения. Современное оборудование и профессиональный подход.</p>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <img src="/home/student/Рабочий стол/проект 2/3.jpg" alt="Шлагбаумы" class="service-img">
+                    <div class="service-content">
+                        <h3>Обслуживание шлагбаумов</h3>
+                        <p>Ремонт и техническое обслуживание автоматических шлагбаумов, ворот и систем контроля доступа.</p>
+                    </div>
+                </div>
+            </div>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-XXXXXXXXX');
+</script>
+           
+            <div class="company-info">
+                <div class="info-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <h3>25 лет на рынке</h3>
+                    <p>Многолетний опыт работы</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-user-check"></i>
+                    <h3>5000+ клиентов</h3>
+                    <p>Довольных клиентов</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Гарантия качества</h3>
+                    <p>Гарантия на все работы</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>Круглосуточно</h3>
+                    <p>Работаем 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>История компании</h2>
+                <p>Наш путь начался в далёком 2001 году и мы продолжаем помогать гражданам с ремонтом вот уж 25 лет</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Наша миссия — обеспечивать высокий уровень сервиса для клиентов</h2>
+                    <p>Мы ценим ваш комфорт и верность нам. За 25 лет работы мы накопили огромный опыт в обслуживании и ремонте систем безопасности, что позволяет нам решать задачи любой сложности.</p>
+                    <p>Наша команда состоит из высококвалифицированных специалистов, которые регулярно проходят обучение и повышают свою квалификацию. Мы используем только современное оборудование и качественные материалы.</p>
+                    <p>Мы гордимся тем, что многие наши клиенты рекомендуют нас своим друзьям и знакомым. Для нас важно не просто выполнить работу, а сделать это так, чтобы клиент остался доволен и чувствовал себя в безопасности.</p>
+                    
+                    <div class="about-btn-container">
+                        <a href="#contact" class="btn">Связаться с нами</a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+<section class="section portfolio" id="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <h2>Наши объекты</h2>
+            <p>За 25 лет обслужили более 5000 объектов в Москве и области</p>
+        </div>
+        
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-img-placeholder">
+                    <img src="/home/student/Рабочий стол/проект 2/10.jpg" alt="ЖК Солнечный">
+                </div>
+                <div class="portfolio-content">
+                    <h3>ЖК "Солнечный"</h3>
+                    <div class="portfolio-problem">
+                        <strong>Проблема:</strong> Частые сбои домофонной системы, нерабочие панели вызова
+                    </div>
+                    <div class="portfolio-solution">
+                        <strong>Решение:</strong> Полная замена системы на современную IP-систему с удаленным доступом
+                    </div>
+                    <div class="portfolio-equipment">
+                        <strong>Оборудование:</strong> Domination IP, 45 панелей вызова
+                    </div>
+                    <div class="portfolio-review">
+                        "Работаем с Перспективой ТЦ уже 5 лет. Надежный партнер!"
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <div class="portfolio-img-placeholder">
+                    <img src="/home/student/Рабочий стол/проект 2/12.jpeg" alt="Бизнес-центр">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Бизнес-центр "Северный"</h3>
+                    <div class="portfolio-problem">
+                        <strong>Проблема:</strong> Недостаточное покрытие видеонаблюдения на парковке
+                    </div>
+                    <div class="portfolio-solution">
+                        <strong>Решение:</strong> Установка 8 дополнительных камер с ИК-подсветкой
+                    </div>
+                    <div class="portfolio-equipment">
+                        <strong>Оборудование:</strong> Hikvision, камеры 4MP
+                    </div>
+                    <div class="portfolio-review">
+                        "Профессиональный подход и качественное оборудование"
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section faq-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Частые вопросы и проблемы</h2>
+            <p>Решения для типичных проблем в жилых домах</p>
+        </div>
+        
+        <div class="faq-grid">
+            <div class="faq-category">
+                <h3>Проблемы с домофонами</h3>
+                <div class="faq-item">
+                    <div class="faq-question">Не работает вызов на квартиру</div>
+                    <div class="faq-answer">Чаще всего проблема в абонентском устройстве. Требуется диагностика и замена трубки или платы.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Не открывается дверь с кнопки</div>
+                    <div class="faq-answer">Возможно, проблема в электромеханическом замке или контроллере. Требуется замена изношенных деталей.</div>
+                </div>
+            </div>
+            
+            <div class="faq-category">
+                <h3>Проблемы с видеонаблюдением</h3>
+                <div class="faq-item">
+                    <div class="faq-question">Пропал сигнал с камеры</div>
+                    <div class="faq-answer">Проверяем кабель, питание и настройки регистратора. Часто проблема в поврежденном кабеле.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Плохое качество изображения ночью</div>
+                    <div class="faq-answer">Требуется настройка ИК-подсветки или замена камеры на модель с лучшей светочувствительностью.</div>
+                </div>
+            </div>
+        </div>
+        <div class="why-us">
+            <h2>Почему ТСЖ и ЖСК выбирают нас</h2>
+            <div class="why-grid">
+                <div class="why-item">
+                    <i class="fas fa-file-contract"></i>
+                    <h3>Работаем с юридическими лицами</h3>
+                    <p>Официальный договор, все закрывающие документы</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Опыт работы с ТСЖ</h3>
+                    <p>Понимаем специфику работы управляющих компаний</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h3>Плановое обслуживание</h3>
+                    <p>Регулярные проверки и профилактика оборудования</p>
+                </div>
+                <div class="why-item">
+                    <i class="fas fa-headset"></i>
+                    <h3>Круглосуточная поддержка</h3>
+                    <p>Техническая поддержка 24/7 для экстренных случаев</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section process-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Схема работы</h2>
+            <p>Прозрачный процесс от заявки до результата</p>
+        </div>
+        
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h3>Заявка</h3>
+                <p>Вы оставляете заявку на сайте или по телефону</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h3>Выезд мастера</h3>
+                <p>Бесплатный выезд и диагностика в течение 24 часов</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <h3>Смета</h3>
+                <p>Подробная смета без скрытых платежей</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <h3>Выполнение работ</h3>
+                <p>Работаем в согласованные сроки с гарантией</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">5</div>
+                <h3>Сдача объекта</h3>
+                <p>Проверка работы системы, подписание актов</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section geography">
+    <div class="container">
+        <div class="section-title">
+            <h2>География обслуживания</h2>
+            <p>Работаем по всей Москве и Московской области</p>
+        </div>
+        
+        <div class="geography-content">
+            <div class="cities-list">
+                <h3>Основные районы обслуживания:</h3>
+                <ul>
+                    <li>Москва (все округа)</li>
+                    <li>Химки</li>
+                    <li>Подольск</li>
+                    <li>Люберцы</li>
+                    <li>Балашиха</li>
+                    <li>Мытищи</li>
+                    <li>Красногорск</li>
+                    <li>Одинцово</li>
+                </ul>
+                <p class="geo-note">Выезд в отдаленные районы МО обсуждается индивидуально</p>
+            </div>
+            <div class="map-placeholder">
+                <div class="simple-map">
+                    <h4>Зона обслуживания Москва и МО</h4>
+                    <p>Радиус до 50 км от МКАД</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section trust-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>Документы и сертификаты</h2>
+            <p>Работаем официально, имеем все необходимые лицензии</p>
+        </div>
+        
+        <div class="documents-grid">
+            <div class="doc-item">
+                <i class="fas fa-file-certificate"></i>
+                <h3>Лицензия МЧС</h3>
+                <p>Лицензия на монтаж и обслуживание систем безопасности</p>
+            </div>
+            <div class="doc-item">
+                <i class="fas fa-handshake"></i>
+                <h3>СРО</h3>
+                <p>Членство в саморегулируемой организации</p>
+            </div>
+            <div class="doc-item">
+                <i class="fas fa-award"></i>
+                <h3>Сертификаты</h3>
+                <p>Сертифицированные партнеры ведущих производителей</p>
+            </div>
+            <div class="doc-item">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Страхование</h3>
+                <p>Застрахована гражданская ответственность</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section additional-forms">
+    <div class="container">
+        <div class="forms-grid">
+
+            
+            <div class="form-card">
+                <h3><i class="fas fa-tools"></i> Вызвать мастера</h3>
+                <p>Срочный выезд специалиста для диагностики</p>
+                <a href="#contact" class="btn" data-form-type="master">Вызвать мастера</a>
+            </div>
+            
+            <div class="form-card">
+                <h3><i class="fas fa-file-alt"></i> Коммерческое предложение</h3>
+                <p>Для ТСЖ и управляющих компаний</p>
+                <a href="#contact" class="btn" data-form-type="commercial">Получить КП</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="section" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Наша команда</h2>
+                <p>Наши профессиональные сотрудники, которые помогут вам с ремонтом</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo-placeholder">
+                            <div class="member-photo-placeholder">
+                                <img src="/home/student/Рабочий стол/проект 2/7.jpg">
+                              </div>
+                    </div>
+                    <div class="member-name">Евгений Боцман</div>
+                    <div class="member-position">Специалист по домофонам</div>
+                    <p>Опыт работы 15 лет. Эксперт в установке и ремонте домофонных систем.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo-placeholder">
+                            <div class="member-photo-placeholder">
+                                <img src="/home/student/Рабочий стол/проект 2/8.jpg">
+                              </div>
+                    </div>
+                    <div class="member-name">Алексей Котлов</div>
+                    <div class="member-position">Специалист по видеонаблюдению</div>
+                    <p>Опыт работы 12 лет. Знает все о системах видеонаблюдения и безопасности.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo-placeholder">
+                            <div class="member-photo-placeholder">
+                                <img src="/home/student/Рабочий стол/проект 2/6.jpg">
+                              </div>
+                    </div>
+                    <div class="member-name">Мария Ранек</div>
+                    <div class="member-position">Специалист по шлагбаумам</div>
+                    <p>Опыт работы 10 лет. Профессионал в ремонте и обслуживании систем контроля доступа.</p>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-photo-placeholder">
+                            <div class="member-photo-placeholder">
+                                <img src="/home/student/Рабочий стол/проект 2/9.jpg">
+                              </div>
+                    </div>
+                    <div class="member-name">Ольга Давенко</div>
+                    <div class="member-position">Менеджер по клиентам</div>
+                    <p>Опыт работы 8 лет. Всегда поможет с заявкой и ответит на ваши вопросы.</p>
+                </div>
+            </div>
+            
+            <div class="work-hours">
+                <p><strong>Время работы:</strong> Пн-Пт: 8:00-20:00 | Сб-Вс: 9:00-18:00</p>
+                <p><strong>Техническая поддержка:</strong> круглосуточно</p>
+            </div>
+        </div>
+    </section>
+<section class="map-section" id="map">
+    <div class="container">
+        <div class="section-title">
+            <h2>Где мы находимся</h2>
+            <p>Наш офис расположен в удобном районе Москвы с хорошей транспортной доступностью</p>
+        </div>
+        
+        <div class="map-container">
+            <div class="map-wrapper">
+                <iframe 
+                    src="https://yandex.ru/map-widget/v1/?ll=37.608522%2C55.632963&z=17&pt=37.608522%2C55.632963%2Cpm2org&l=map"
+                    width="100%" 
+                    height="450" 
+                    frameborder="0"
+                    allowfullscreen="true"
+                    style="position:relative;"
+                    loading="lazy"
+                    title="Карта с расположением офиса Перспектива ТЦ">
+                </iframe>
+            </div>  
+            <div class="map-info">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Адрес офиса</h4>
+                        <p>г. Москва, Сумский проезд 8к 3</p>
+                        <p>10 офис, 1 этаж</p>
+                        <p>ЮАО, район Чертаново Северное</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Режим работы</h4>
+                        <p><strong>Пн-Пт:</strong> 8:00-20:00</p>
+                        <p><strong>Сб-Вс:</strong> 9:00-18:00</p>
+                        <p>Техподдержка: круглосуточно</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Контакты</h4>
+                        <p><strong>Телефон:</strong> +7 (495) 316-77-27</p>
+                        <p><strong>Email:</strong> info@perspektiva-tc.ru</p>
+                        <p><strong>Техподдержка:</strong> 24/7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="map-actions">
+            <a href="https://yandex.ru/maps/?pt=37.608522%2C55.632963&z=17&l=map" 
+               target="_blank" 
+               class="btn map-action-btn">
+                <i class="fas fa-external-link-alt"></i> Открыть в Яндекс.Картах
+            </a>
+            <a href="https://yandex.ru/maps/?rtext=~55.632963%2C37.608522&rtt=auto" 
+               target="_blank" 
+               class="btn map-action-btn secondary">
+                <i class="fas fa-route"></i> Построить маршрут
+            </a>
+        </div>
+    </div>
+</section>
+    <section class="contact-form" id="contact">
+        <div class="container">
+            <div class="form-container">
+                <h2>Оставьте заявку</h2>
+                <p class="form-description">Заполните форму и мы свяжемся с вами в течение 30 минут</p>
+                
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" class="form-control" placeholder="Введите ваше имя" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="+7 (___) ___-__-__" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" class="form-control" placeholder="example@mail.ru" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Услуга</label>
+                        <select id="service" class="form-control">
+                            <option value="">Выберите услугу</option>
+                            <option value="domofon">Обслуживание домофонов</option>
+                            <option value="camera">Камеры видеонаблюдения</option>
+                            <option value="shlagbaum">Обслуживание шлагбаумов</option>
+                            <option value="other">Другое</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Сообщение</label>
+                        <textarea id="message" class="form-control" placeholder="Опишите вашу проблему или вопрос"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Отправить заявку</button>
+                    
+                    <div id="successMessage" class="success-message">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Ваше сообщение успешно отправлено! Мы свяжемся с вами в ближайшее время.</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+<section class="section reviews-section" id="reviews">
+    <div class="container">
+        <div class="section-title">
+            <h2>Отзывы клиентов</h2>
+            <p>Что говорят наши клиенты о качестве наших услуг</p>
+        </div>
+        <div class="add-review-form">
+            <h3>Оставить отзыв</h3>
+            <form id="reviewForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="reviewName">Ваше имя *</label>
+                        <input type="text" id="reviewName" class="form-control" placeholder="Имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewCity">Город</label>
+                        <input type="text" id="reviewCity" class="form-control" placeholder="Москва">
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewEmail">Email (не публикуется)</label>
+                    <input type="email" id="reviewEmail" class="form-control" placeholder="email@example.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewService">Услуга</label>
+                    <select id="reviewService" class="form-control">
+                        <option value="">Выберите услугу</option>
+                        <option value="domofon">Домофоны</option>
+                        <option value="camera">Видеонаблюдение</option>
+                        <option value="shlagbaum">Шлагбаумы</option>
+                        <option value="other">Другое</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewRating">Оценка</label>
+                    <div class="rating-stars">
+                        <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+                        <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                        <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                        <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                        <input type="radio" id="star1" name="rating" value="1" required><label for="star1">★</label>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewText">Текст отзыва *</label>
+                    <textarea id="reviewText" class="form-control" placeholder="Напишите ваш отзыв здесь..." rows="4" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="reviewAgreement" required>
+                        <label for="reviewAgreement">Я согласен на обработку персональных данных</label>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn submit-review-btn">
+                    <i class="fas fa-paper-plane"></i> Опубликовать отзыв
+                </button>
+                
+                <div id="reviewSuccess" class="success-message" style="display: none;">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Спасибо за ваш отзыв! Он появится после проверки модератором.</span>
+                </div>
+            </form>
+        </div>
+        <div class="reviews-container">
+            <div class="reviews-filter">
+                <button class="filter-btn active" data-filter="all">Все отзывы</button>
+                <button class="filter-btn" data-filter="5">5 звезд</button>
+                <button class="filter-btn" data-filter="4">4 звезды</button>
+                <button class="filter-btn" data-filter="3">3 звезды</button>
+                <button class="filter-btn" data-filter="domofon">Домофоны</button>
+                <button class="filter-btn" data-filter="camera">Видеонаблюдение</button>
+            </div>
+            
+            <div class="reviews-grid" id="reviewsGrid">
+            </div>
+            
+            <div class="reviews-pagination" id="reviewsPagination">
+            </div>
+        </div>
+        <div class="reviews-stats">
+            <div class="stat-item">
+                <div class="stat-number" id="totalReviews">0</div>
+                <div class="stat-label">Всего отзывов</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="averageRating">0</div>
+                <div class="stat-label">Средний рейтинг</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" id="positiveReviews">0%</div>
+                <div class="stat-label">Положительных</div>
+            </div>
+        </div>
+    </div>
+</section>
+<nav>
+    <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#about">О компании</a></li>
+        <li><a href="#portfolio">Наши объекты</a></li>
+        <li><a href="#reviews">Отзывы</a></li>
+        <li><a href="#team">Наша команда</a></li>
+        <li><a href="#contact">Контакты</a></li>
+    </ul>
+</nav>
+<script src="reviews.js"></script>
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div>
+                    <div class="footer-logo">ПЕРСПЕКТИВА ТЦ</div>
+                    <p class="footer-about">Обслуживание домофонов, камер видеонаблюдения и шлагбаумов. 25 лет на рынке. Эксперты в системах безопасности.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> +7 (495) 316-77-27</p>
+                        <p><i class="fas fa-envelope"></i> info@perspektiva-tc.ru</p>
+                        <p><i class="fas fa-map-marker-alt"></i> г. Москва, Сумский проезд 8к 3, 10 офис,1этаж,Окрук ЮАО, район Чертаного северное</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Услуги</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Обслуживание домофонов</a></li>
+                        <li><a href="#services">Камеры видеонаблюдения</a></li>
+                        <li><a href="#services">Обслуживание шлагбаумов</a></li>
+                        <li><a href="#services">Ремонт систем безопасности</a></li>
+                        <li><a href="#services">Установка оборудования</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer-title">Компания</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#team">Наша команда</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                        <li><a href="#contact">Заявка на обслуживание</a></li>
+                        <li><a href="#contact">Консультация</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 "Перспектива ТЦ". Все права защищены. <a href="#">Политика конфиденциальности</a></p>
+                <p class="footer-note">Сайт разработан в рамках производственной практики ГБПОУ МГКЭИТ</p>
+            </div>
+        </div>
+    </footer>
+<div class="microdata" itemscope itemtype="http://schema.org/LocalBusiness">
+    <meta itemprop="name" content="Перспектива ТЦ - Обслуживание систем безопасности">
+    <meta itemprop="description" content="Обслуживание домофонов, камер видеонаблюдения и шлагбаумов в Москве и Московской области">
+    <meta itemprop="telephone" content="+7 (495) 316-77-27">
+    <meta itemprop="email" content="info@perspektiva-tc.ru">
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="Сумский проезд 8к 3, 10 офис, 1 этаж">
+        <meta itemprop="addressLocality" content="Москва">
+        <meta itemprop="postalCode" content="115280">
+        <meta itemprop="addressCountry" content="Россия">
+    </div>
+    <meta itemprop="openingHours" content="Mo-Fr 08:00-20:00">
+    <meta itemprop="openingHours" content="Sa-Su 09:00-18:00">
+    <meta itemprop="priceRange" content="₽₽">
+</div>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+    ym(12345678, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/12345678" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</body>
+<script src="crm-integration.js"></script>
+<script src="telegram-bot.js"></script>
+<script src="ads-conversions.js"></script>
+<script src="proekt.js"></script>
+<script src="products.js"></script>
+<script src="calculator.js"></script>
+<script src="hidden-admin.js"></script>
+<script src="admin-panel.js"></script>
+<script src="product-calculator-integration.js"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();
+    for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+    k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+    ym(12345678, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/12345678" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<script>
+    (function() {
+        var yaParams = window.yaParams || {}; 
+        var yandexId = localStorage.getItem('yandex_retargeting_id');
+        if (!yandexId) {
+            yandexId = 'yandex_' + Math.random().toString(36).substr(2, 9);
+            localStorage.setItem('yandex_retargeting_id', yandexId);
+        }
+        
+        yaParams.uid = yandexId;
+        yaParams.type = 'свойства безопасности';
+        yaParams.price = 'средний';
+        
+        window.yaParams = yaParams;
+    })();
+</script>
+<script src="//bs.yandex.ru/resource/watch.js" async></script>
